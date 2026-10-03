@@ -91,10 +91,6 @@ Unload:
 sudo rmmod vsensor
 ```
 
-## Interview project summary
-
-> I built a virtual Linux character-device driver in C that simulates a periodic sensor. The driver generates readings using a kernel timer and defers processing to a workqueue. It exposes the device through `/dev/vsensor`, supports blocking reads and readiness notification through poll/epoll, and uses a mutex-protected ring buffer for producer-consumer behavior. I added ioctl controls for the sampling interval and debugfs instrumentation for internal state. I also deliberately removed synchronization in an experimental version to observe a race condition and understand why the locking boundaries matter.
-
 ## Documentation map
 
 - `01-project-and-architecture.md` — project purpose, architecture, data/control flow
