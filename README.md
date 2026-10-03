@@ -102,5 +102,4 @@ sudo rmmod vsensor
 - `03-io-concurrency-memory.md` — read/write, user memory, mutexes, wait queues, poll/epoll, ring buffer, virtual memory
 - `04-development-journey.md` — setup problems, bugs, experiments, decisions and lessons
 - `05-debugging-and-design-decisions.md` — observability, debugfs, design reasoning, limitations
-- `06-interview-cheatsheet.md` — high-value questions, answers and project-defense reminders
-- `07-commands-and-code-reference.md` — commands, important APIs and final-code concepts
+- `06-commands-and-code-reference.md` — commands, important APIs and final-code concepts
