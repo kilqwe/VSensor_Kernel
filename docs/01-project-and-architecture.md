@@ -2,7 +2,7 @@
 
 ## 1.1 Why this project exists
 
-The project was chosen because the internship role emphasizes OS internals, system software, C/C++, device drivers, debugging, embedded systems, and the ability to explain one project deeply.
+The project was chosen to have a hands-on experience on OS internals, system software, C/C++, device drivers, debugging, embedded systems, etc.
 
 Rather than building a large application, the goal was to build a small system where every layer could be understood.
 
@@ -237,4 +237,4 @@ software timer
 schedule_work()
 ```
 
-That distinction should be stated clearly in interviews.
+
